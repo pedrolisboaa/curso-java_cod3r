@@ -1,0 +1,14 @@
+package classe;
+
+public class Data {
+
+	public Integer dia;
+	public String mes;
+	public Integer ano;
+	
+	@Override
+	public String toString() {
+		return dia + "/" + mes + "/" + ano;
+	}
+	
+}

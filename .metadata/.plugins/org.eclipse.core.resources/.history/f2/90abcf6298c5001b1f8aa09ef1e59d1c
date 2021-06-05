@@ -1,0 +1,24 @@
+package classe;
+
+public class Produto {
+
+	public String nome;
+	public Double preco;
+	public Double desconto;
+	
+	public Produto() {
+		
+	}
+
+	public Produto(String nome, Double preco, Double desconto) {
+		super();
+		this.nome = nome;
+		this.preco = preco;
+		this.desconto = desconto;
+	}
+	
+	
+	public Double precoFinal() {
+		return preco * (1 - desconto);
+	}
+}

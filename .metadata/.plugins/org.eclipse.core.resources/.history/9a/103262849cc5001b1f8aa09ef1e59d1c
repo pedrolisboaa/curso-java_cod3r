@@ -1,0 +1,28 @@
+package classe;
+
+public class Data {
+
+	public Integer dia;
+	public String mes;
+	public Integer ano;
+	
+	public Data() {
+		
+	}
+	
+	public Data (Integer dia, String mes, Integer ano) {
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
+	}
+	
+	public String obterDataFormata() {
+		return dia + "/" + mes + "/" + ano;
+	}
+
+	@Override
+	public String toString() {
+		return dia + "/" + mes + "/" + ano;
+	}
+	
+}

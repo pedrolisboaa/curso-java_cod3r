@@ -1,0 +1,20 @@
+package classe;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ProdutoTeste {
+	
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner  sc = new Scanner(System.in);
+		
+		
+		Produto p1 = new Produto(null, null, null);
+		Produto p2 = new Produto();
+				
+		sc.close();
+	}
+
+}
