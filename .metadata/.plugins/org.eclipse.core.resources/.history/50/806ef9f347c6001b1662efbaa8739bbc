@@ -1,0 +1,16 @@
+package classe;
+
+public class PrimeiroTrauma {
+	
+		static int a = 3;
+		
+	public static void main(String[] args) {
+		
+		
+		int n = a;
+		System.out.println(a);
+		
+		
+	}
+
+}

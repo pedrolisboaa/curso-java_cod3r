@@ -1,0 +1,17 @@
+package classe;
+
+public class Pessoa {
+	
+	public String nomePessoa;
+	public Double pesoPessoa;
+	
+	public Pessoa() {
+		
+	}
+	
+	public Pessoa(String nomePessoa, Double pesoaPessoa) {
+		this.nomePessoa = nomePessoa;
+		this.pesoPessoa = pesoPessoa;
+	}
+
+}

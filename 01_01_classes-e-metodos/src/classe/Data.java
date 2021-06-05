@@ -7,9 +7,10 @@ public class Data {
 	public Integer ano;
 	
 	public Data() {
-		this.dia = 1;
-		this.mes = "janeiro";
-		this.ano = 1970;
+		//this.dia = 1;
+		//this.mes = "janeiro";
+		//this.ano = 1970;
+		this(1, "janeiro",1970);
 	}
 	
 	public Data (Integer dia, String mes, Integer ano) {
